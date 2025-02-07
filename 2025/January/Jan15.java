@@ -1,5 +1,3 @@
-package POTD;
-
 public class Jan15 {
     public int minimizeXor(int num1, int num2) {
         int count2 = Integer.bitCount(num2);
