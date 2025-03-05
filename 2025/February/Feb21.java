@@ -24,7 +24,7 @@ class Feb21 {
       return vals.contains(target);
     }
   
-    private Set<Integer> vals = new HashSet<>();
+    private final Set<Integer> vals = new HashSet<>();
   
     private void dfs(TreeNode root, int val) {
       if (root == null)
